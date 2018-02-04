@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1,maximum-scale=1,minimum-scale=1">
+  <!-- <title>定制系统</title> -->
+  <script>/*设置网页字体大小*/
+  if (document.documentElement.clientWidth > 1366) {
+    document.documentElement.style.fontSize = 1366 / 20.48 + 'px';
+  } else {
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 20.48 + 'px';
+  }
+  window.onresize = function () {
+    if (document.documentElement.clientWidth > 1366) {
+      document.documentElement.style.fontSize = 1366 / 20.48 + 'px';
+    } else {
+      document.documentElement.style.fontSize = document.documentElement.clientWidth / 20.48 + 'px';
+    }
+  }</script>
+</head>
+<body>
+<div class="container-fluid h100">
+  <div id=app class=h100></div>
+</div>
+</body>
+</html>
